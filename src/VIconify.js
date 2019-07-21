@@ -37,7 +37,7 @@ document.addEventListener('IconifyAddedIcons', function() {
  * Export component
  */
 export default {
-    name: 'V-Icon',
+    name: 'VIconify',
     render: function(createElement) {
         // Check if icon exists, render span if not
         if (!Iconify.iconExists(this.name)) {

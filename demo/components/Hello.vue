@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <h2>welcome</h2>
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg }}
+      <v-iconify name="mdi-home" inline></v-iconify>
+    </h1>
   </div>
 </template>
 

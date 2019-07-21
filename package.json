@@ -1,7 +1,7 @@
 {
   "name": "vue-iconify",
   "description": "A vue.js plugin",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/vue-iconify.js",
   "files": [
