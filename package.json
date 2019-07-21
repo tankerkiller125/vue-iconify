@@ -1,7 +1,7 @@
 {
   "name": "vue-iconify",
-  "description": "A vue.js plugin",
-  "version": "1.0.2",
+  "description": "A vue.js plugin that allows using iconify",
+  "version": "1.0.3",
   "private": false,
   "main": "dist/vue-iconify.js",
   "files": [
@@ -10,16 +10,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tankerkiller125/vue-iconify"
   },
   "unpkg": "dist/vue-iconify.js",
   "keywords": [
     "vue.js",
-    "vue-plugin"
+    "vue-plugin",
+    "iconify",
+    "vue-iconify"
   ],
-  "author": "",
+  "author": "Matthew Kilgore",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/tankerkiller125/vue-iconify",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "npm run build:library && npm run build:demo",
