@@ -1,9 +1,6 @@
 
 import Iconify from '@iconify/iconify'
 
-// This is for debug - disables caching, so on each reload new API request would be sent
-Iconify.setConfig('localStorage', false);
-Iconify.setConfig('sessionStorage', false);
 Iconify.setConfig('defaultAPI', 'https://api.iconify.design/{prefix}.js?t=' + Date.now() + '&icons={icons}');
 
 /**
