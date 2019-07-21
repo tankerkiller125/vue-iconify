@@ -4,6 +4,8 @@
 
 ### Usage
 
+Run `npm i vue-iconify` or `yarn add vue-iconify`
+
 In order to use the plugin will need to do the following:
 ```js
 import VueIconify from 'vue-iconify';
