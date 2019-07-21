@@ -1,6 +1,37 @@
 # vue-iconify
 
-> A vue.js plugin
+> A vue.js plugin that adds iconify support
+
+### Usage
+
+In order to use the plugin will need to do the following:
+```js
+import VueIconify from 'vue-iconify';
+
+Vue.use(VueIconify);
+
+let app = new Vue({el: '#app'});
+```
+
+In the component or html you can then use the `v-iconify` element. The `v-iconify` element can take the following props:
+
+* name
+    * string
+    * required
+* width
+    * string
+* height
+    * string
+* inline
+    * boolean
+* color
+    * string
+* rotate
+    * string
+* flip
+    * string
+* alight
+    * string
 
 ### Development Setup
 
