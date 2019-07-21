@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1782264-e3c8-441b-b3b7-850ae4a6d88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.rollup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/dev-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/components/Hello.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/css/app.3748a9d9a9c9e92fea96974c47dca77c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/css/app.3748a9d9a9c9e92fea96974c47dca77c.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/vendor.cd0df55b54af0c2a2891.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dist/static/js/vendor.cd0df55b54af0c2a2891.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/vue-iconify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIconify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vue-iconify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +17,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1OKGkHCGuw0AJaWhYBvqssFl8KO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,8 +53,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563719015869</updated>
-      <workItem from="1563719017048" duration="1396000" />
+      <workItem from="1563719017048" duration="1564000" />
     </task>
+    <task id="LOCAL-00001" summary="Restart">
+      <created>1563720434998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563720434998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Restart">
+      <created>1563720572934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563720572934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +85,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restart" />
   </component>
 </project>
