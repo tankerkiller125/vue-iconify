@@ -34,6 +34,11 @@ In the component or html you can then use the `v-iconify` element. The `v-iconif
     * string
 * alight
     * string
+    
+#### Example Component Usage
+`<v-iconify name="mdi-home" inline/>`
+
+This would render the Material Design Icons home icon, the separator for this implementation is the dash, not the `:` that the default iconify JS uses.
 
 ### Development Setup
 
