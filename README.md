@@ -40,6 +40,9 @@ In the component or html you can then use the `v-iconify` element. The `v-iconif
 
 This would render the Material Design Icons home icon, the separator for this implementation is the dash, not the `:` that the default iconify JS uses.
 
+#### Nuxt Usage
+In Nuxt you must ensure that the plugin you create is in client render only mode, server side rendering does not work!
+
 ### Development Setup
 
 ``` bash
