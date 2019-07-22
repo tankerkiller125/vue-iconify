@@ -3,15 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import vueIconify from "../dist/vue-iconify";
 
-const vueIconify = process.env.NODE_ENV === 'development'
-  ? require('../src/vue-iconify.js')
-  : require('../dist/vue-iconify.js')
+//const vueIconify = process.env.NODE_ENV === 'development'
+//  ? require('../src/vue-iconify.js')
+//  : require('../dist/vue-iconify.js');
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // Using plugin
-Vue.use(vueIconify)
+Vue.use(vueIconify);
 
 /* eslint-disable no-new */
 new Vue({
@@ -19,4 +20,4 @@ new Vue({
   router,
   template: '<App/>',
   components: { App }
-})
+});
