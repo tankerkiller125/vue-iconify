@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1782264-e3c8-441b-b3b7-850ae4a6d88d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VIconify.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIconify.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563927757232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Move listener back to correct place">
+      <created>1563928025960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563928025960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Restart" />
     <MESSAGE value="Testing new boilerplate code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing new boilerplate code" />
+    <MESSAGE value="Move listener back to correct place" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move listener back to correct place" />
   </component>
 </project>

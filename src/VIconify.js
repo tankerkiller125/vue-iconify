@@ -39,7 +39,7 @@ export default {
         if (!Iconify.iconExists(this.name)) {
             return createElement('span', {
                 attrs: {
-                    style: 'display: inline-flex; align-self: center'
+                    style: 'display: inline-flex; align-self: center; top: .125em; position: relative;'
                 }
             });
         }
