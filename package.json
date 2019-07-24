@@ -1,11 +1,11 @@
 {
   "name": "vue-iconify",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "VueJS Iconify Plugin",
   "main": "./dist/app.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tankerkiller125/vue-iconify"
   },
   "author": "Matthew Kilgore",
   "license": "MIT",
@@ -55,9 +55,9 @@
     "webpack-merge": "^4.2.1"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/tankerkiller125/vue-iconify/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/tankerkiller125/vue-iconify",
   "directories": {
     "test": "tests"
   },
