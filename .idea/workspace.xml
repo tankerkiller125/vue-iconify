@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1782264-e3c8-441b-b3b7-850ae4a6d88d" name="Default Changelist" comment="">
+    <list default="true" id="b1782264-e3c8-441b-b3b7-850ae4a6d88d" name="Default Changelist" comment="Restart">
+      <change afterPath="$PROJECT_DIR$/build/webpack.base.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.prod.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Hello.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/components/Hello.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/components/Hello.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue-iconify.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-iconify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.rollup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/components/Hello.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/css/app.3748a9d9a9c9e92fea96974c47dca77c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/css/app.3748a9d9a9c9e92fea96974c47dca77c.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.bf8769ef008a191ce917.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.bf8769ef008a191ce917.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.845c1918a722532ccdec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.845c1918a722532ccdec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/vendor.cd0df55b54af0c2a2891.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/vendor.cd0df55b54af0c2a2891.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vue-iconify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VIconify.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIconify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vue-iconify.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
