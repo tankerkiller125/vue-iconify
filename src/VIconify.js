@@ -35,11 +35,16 @@ document.addEventListener('IconifyAddedIcons', function () {
 export default {
     name: 'VIconify',
     render: function (createElement) {
+        if(this.inline) {
+            var style = 'display: inline-flex; align-self: center; top: .125em; position: relative;';
+        } else {
+            var style = 'display: inline-block; width: 1em;'
+        }
         // Check if icon exists, render span if not
         if (!Iconify.iconExists(this.name)) {
             return createElement('span', {
                 attrs: {
-                    style: 'display: inline-flex; align-self: center; top: .125em; position: relative;'
+                    style: style
                 }
             });
         }
