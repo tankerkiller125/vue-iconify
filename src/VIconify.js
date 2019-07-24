@@ -19,7 +19,7 @@ let listeners = [];
 /**
  * Listen to IconifyAddedIcons that is fired whenever new icons are loaded from API
  */
-/*document.addEventListener('IconifyAddedIcons', function () {
+document.addEventListener('IconifyAddedIcons', function () {
     listeners = listeners.filter(item => {
         if (Iconify.iconExists(item.icon)) {
             item.instance.iconLoaded();
@@ -27,7 +27,7 @@ let listeners = [];
         }
         return true;
     });
-});*/
+});
 
 /**
  * Export component
@@ -99,15 +99,6 @@ export default {
         align: String
     },
     beforeMount: function () {
-        this.$el.addEventListener('IconifyAddedIcons', function() {
-            listeners = listeners.filter(item => {
-                if (Iconify.iconExists(item.icon)) {
-                    item.instance.iconLoaded();
-                    return false;
-                }
-                return true;
-            });
-        });
         // Status of icon loading. false = not loading, string = icon name
         this._loadingIcon = false;
         this.loadIcon();
