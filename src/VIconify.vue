@@ -4,6 +4,7 @@
 
 <script>
     export default {
+        name: 'VIconify',
         data: () => ({
             icon: {
                 body: null
