@@ -1,4 +1,3 @@
-
 import Iconify from '@iconify/iconify'
 
 Iconify.setConfig('defaultAPI', 'https://api.iconify.design/{prefix}.js?t=' + Date.now() + '&icons={icons}');
@@ -20,7 +19,7 @@ let listeners = [];
 /**
  * Listen to IconifyAddedIcons that is fired whenever new icons are loaded from API
  */
-document.addEventListener('IconifyAddedIcons', function() {
+document.addEventListener('IconifyAddedIcons', function () {
     listeners = listeners.filter(item => {
         if (Iconify.iconExists(item.icon)) {
             item.instance.iconLoaded();
@@ -35,12 +34,17 @@ document.addEventListener('IconifyAddedIcons', function() {
  */
 export default {
     name: 'VIconify',
-    render: function(createElement) {
+    render: function (createElement) {
+        if(this.inline) {
+            var style = 'display: inline-flex; align-self: center; top: .125em; position: relative;';
+        } else {
+            var style = 'display: inline-block; width: 1em;'
+        }
         // Check if icon exists, render span if not
         if (!Iconify.iconExists(this.name)) {
             return createElement('span', {
                 attrs: {
-                    style: 'display: inline-block; width: 1em;'
+                    style: style
                 }
             });
         }
@@ -99,12 +103,12 @@ export default {
         // Crop: slice, meet
         align: String
     },
-    beforeMount: function() {
+    beforeMount: function () {
         // Status of icon loading. false = not loading, string = icon name
         this._loadingIcon = false;
         this.loadIcon();
     },
-    beforeUpdate: function() {
+    beforeUpdate: function () {
         // Try to load different icon if name property was changed
         this.loadIcon();
     },
@@ -112,7 +116,7 @@ export default {
         /**
          * Load icon from API
          */
-        loadIcon: function() {
+        loadIcon: function () {
             if (this._loadingIcon !== this.name && !Iconify.iconExists(this.name)) {
                 if (this._loadingIcon !== false) {
                     // Already loading with different icon name - remove component with old icon name from listeners list
@@ -135,19 +139,19 @@ export default {
         /**
          * Remove component from Iconify event listener
          */
-        removeListener: function() {
+        removeListener: function () {
             listeners = listeners.filter(item => item.instance !== this);
         },
 
         /**
          * Icon has loaded. Force component update
          */
-        iconLoaded: function() {
+        iconLoaded: function () {
             this._loadingIcon = false;
             this.$forceUpdate();
         }
     },
-    beforeDestroy: function() {
+    beforeDestroy: function () {
         if (this._loadingIcon !== false) {
             this.removeListener();
         }

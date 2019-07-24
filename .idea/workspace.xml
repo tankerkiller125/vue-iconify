@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1782264-e3c8-441b-b3b7-850ae4a6d88d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/components/Hello.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/components/Hello.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/app.09e042d611dca0655e43.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/static/js/manifest.b568068418805efad836.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue-iconify.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-iconify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VIconify.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIconify.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +84,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563720590517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing new boilerplate code">
+      <created>1563927757232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563927757232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Move listener back to correct place">
+      <created>1563928025960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563928025960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixing alignment">
+      <created>1563928557453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563928557453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +126,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Restart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restart" />
+    <MESSAGE value="Testing new boilerplate code" />
+    <MESSAGE value="Move listener back to correct place" />
+    <MESSAGE value="Fixing alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing alignment" />
   </component>
 </project>

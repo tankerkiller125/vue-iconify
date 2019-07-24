@@ -1,8 +1,12 @@
 {
   "presets": [
-    ["es2015", { "modules": false }]
+    ["env"]
   ],
-  "plugins": [
-    "external-helpers"
-  ]
+  "env": {
+    "test": {
+      "presets": [
+        ["env", {"targets": { "node": "current" }}]
+      ]
+    }
+  }
 }
