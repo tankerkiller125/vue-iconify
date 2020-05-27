@@ -1,3 +1,6 @@
+# Archived
+This project is no longer required as Iconify now has it's own proper vue implementation that you can find: https://github.com/iconify/iconify/tree/master/packages/vue
+
 # vue-iconify
 
 > A vue.js plugin that adds iconify support
